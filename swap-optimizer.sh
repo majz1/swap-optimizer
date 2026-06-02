@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Title:        swap-optimizer.sh
-# Description:  Safely flushes SWAP memory into RAM by clearing pagecache, 
+# Description:  Safely flushes SWAP memory into RAM by clearing pagecache,
 #               dentries, and inodes first, preventing OOM situations.
 # Author:       Mario JB / majz1
 #
