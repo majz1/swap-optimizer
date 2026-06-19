@@ -57,7 +57,7 @@ fi
 # --- Interactive Confirmation Prompt ---
 echo -e "${COLOR_GREEN}[+] System resources are adequate for optimization.${COLOR_RESET}"
 echo -e -n "${COLOR_YELLOW}Do you want to clear the cache and flush SWAP now? [y/N]: ${COLOR_RESET}"
-read -r response
+read -r response < /dev/tty
 
 # Normalize response to lowercase and validate
 case " ${response,,} " in
